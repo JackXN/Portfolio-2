@@ -1,0 +1,10 @@
+.project-container {
+
+padding:20px;
+}
+
+.project-preview {
+    border: black 2px solid;
+    background: blue;
+    height:100%;
+}

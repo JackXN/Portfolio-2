@@ -1,0 +1,18 @@
+.text-container  {
+    padding:10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 40px;
+    position: relative;
+    bottom:25px;
+    color: white;
+}
+
+h1:nth-child(1) {
+    text-transform: uppercase;
+
+}
+

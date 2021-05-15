@@ -6,7 +6,8 @@ import IntroText from './components/IntroText'
 import MoreScroll from './components/MoreScroll'
 import ProjectDisplay from './components/Projects-Section/ProjectDisplay';
 import Marginner from './components/Marginner';
-
+import MobileNav from './components/MobileNav'
+import Skills from './components/Skills-Section/Skills'
 
 
 
@@ -19,10 +20,11 @@ function App() {
   <SelfieLinks/>
 <div className='introduction'>
 <IntroText/>
+<MobileNav/>
 </div>
 <Marginner/>
-<div className='projects'>
-
+<div className='Skills'>
+<Skills/>
 </div>
 
 

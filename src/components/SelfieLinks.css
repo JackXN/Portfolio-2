@@ -15,6 +15,13 @@ img {
     justify-content: center;
 }
 
+.titlename {
+    position: relative;
+    bottom: 250px;
+    color: white;
+   
+}
+
 #github {
     padding: 10px;
     padding-bottom: 0;
@@ -34,3 +41,37 @@ img {
 
 }
 
+@media screen and (min-width:900px) {
+   .selfie-container {
+      position: relative;
+      color: white;
+   }
+
+   .titlename {
+       display: inline;
+       
+   }
+
+
+}
+
+
+
+
+@media screen and (min-width:1000px) {
+
+.selfie-container {
+    position: relative;
+    left: 350px;
+}
+
+
+}
+
+
+@media screen and (min-width: 1440px) {
+    .selfie-container {
+        position: relative;
+        left: 500px;
+    }
+}

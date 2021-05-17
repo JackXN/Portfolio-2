@@ -1,10 +1,12 @@
-.project-container {
+.projects-container {
+    height: 100%;
+    background: orange;
 
-padding:20px;
+    
 }
 
-.project-preview {
-    border: black 2px solid;
-    background: blue;
-    height:100%;
+.showcase-img img{
+    margin-right: 20px;
+    display: flex;
+    margin-bottom: 20px;
 }

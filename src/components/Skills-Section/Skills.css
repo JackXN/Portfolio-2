@@ -1,21 +1,38 @@
 #skills {
-    background: #33759D
+    text-shadow: 2px 6px 2px #000000;
+    font-family: 'Montserrat', sans-serif;
+    color: #5C70A8;
 }
 
 
+.front-end {
+    padding-top: 20px;
+}
 
 .front-end h1 {
     padding-top: 20px;
     font-size: 20px;
+    color: white;
 }
 
 .back-end h1 {
     font-size: 20px;
+    color: white;
+}
+
+.relevant h1 {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 10rem;
 }
 
 
 li {
-    font-size: 30px;
+    padding-top: 10px;
+    font-size: 40px;
+    list-style: none;
+    margin: 10px;
 }
 
 
@@ -23,6 +40,10 @@ li {
 .icons ul {
     display: flex;
     flex-direction: row;
+}
+
+.icons li {
+    transition: all, ease 1s;
 }
 
 .icons li:nth-child(1) {
@@ -39,7 +60,30 @@ li {
 
 .icons li:nth-child(4) {
     color: #E08E0A;
+
 }
+
+
+.icons li:nth-child(1):hover {
+    color: yellow;
+    transform: scale(1.1);
+
+}
+.icons li:nth-child(2):hover {
+    transform: scale(1.1);
+    color: lightblue;
+}
+
+.icons li:nth-child(3):hover {
+    transform: scale(1.1);
+    color: purple;
+}
+
+.icons li:nth-child(4):hover {
+    transform: scale(1.1);
+    color: brown;
+}
+
 
 .back-end .display {
     text-align:center;
@@ -50,4 +94,83 @@ li {
 
 .back-end li:nth-child(1) {
     color: #74B15B;
+}
+
+.back-end {
+    position: relative;
+    bottom: 90px;
+}
+
+.display {
+    text-align: center;
+
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons {
+    transition: all .2s ease-in-out;
+}
+.icons:hover {
+    text-shadow: none;
+    cursor: pointer;
+    
+
+}
+
+@media screen and (min-width:700px) {
+
+#skills {
+    font-size: 50px;
+}
+
+
+
+.project-display {
+    grid: 1;
+    position: relative;
+    bottom: 19px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    li {
+        font-size: 100px;
+        margin-right: 50px;
+    }
+
+    #skills {
+        font-size: 80px;
+        
+    }
+
+
+.front-end h1 {
+    font-size: 40px;
+}
+
+.back-end h1 {
+    font-size: 40px;
+    padding-top: 130px;
+}
+
+
+    
 }

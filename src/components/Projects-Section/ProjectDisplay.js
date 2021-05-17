@@ -1,28 +1,29 @@
 import React from 'react'
 import "./ProjectDisplay.css"
+import ProjectOne from '../assets/images/Project-1.png'
+import ProjectTwo from '../assets/images/Project-2.png'
+import ProjectThree from '../assets/images/Project-3.png'
+import {SiReact as ReactIcon, SiHtml5 as Html5, SiCss3 as Css3, SiPostgresql as PostSQL} from 'react-icons/si'
+import {GrNode as Node} from 'react-icons/gr'
 
 function ProjectDisplay() {
     return (
-        
-        <div className='project-container'>
-            <div className='p1 secondary-display'>
-<h1>Project 1</h1>
-<div className='project-preview'>
-<p>Screenshot</p>
+        <>
+<h1 id='mywork'>My Work</h1>
+<div className='projects-container'>
+<div className='showcase-img'>
+    <img src={ProjectOne}/>
+   
+    <img src={ProjectOne}/>
+    <img src={ProjectOne}/>
+    
+</div>
 
-    </div>
-            </div>
 
-            <div className='p2 primary-display'>
-                <h1>Project 2</h1>
-                </div>
+</div>
 
-                <div className='p3 secondary-display'>
-                <h1>project 3</h1>
-                </div>
-
-        </div>
-
+        </>
+  
     )
 }
 

@@ -1,0 +1,39 @@
+.landing-page {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+
+.intro-text{
+    height: 100%;
+    width: 100%;
+}
+
+
+#intro-selfie {
+    height: 200px;
+    transition: all 900ms;
+}
+
+#github {
+    color: white;
+    transition: all 500ms;
+}
+
+#discord {
+    color: #7289DB;
+    transition: all 500ms;
+}
+
+#linkedin {
+    color: #0C66C3;
+   transition: all 500ms;
+}
+
+#linkedin:hover, #discord:hover, #github:hover {
+transform: scale(1.1);
+   
+
+}
+

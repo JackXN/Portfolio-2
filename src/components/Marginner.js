@@ -2,8 +2,8 @@ import React from 'react'
 import "./Marginner.css"
 function Marginner() {
     return (
-        <div>
-    
+        <div className='marginner'>
+            
         </div>
     )
 }

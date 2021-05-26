@@ -4,16 +4,18 @@ import Self from './assets/images/self-portrait2.png'
 import {FaDiscord as Discord} from 'react-icons/fa' 
 import {AiFillGithub as Github} from 'react-icons/ai'
 import {AiFillLinkedin as LinkedIn} from 'react-icons/ai'
-import IntroText from '../components/IntroText'
+import {Link} from 'react-router-dom'
 function SelfieLinks() {
     return (
         <div className='selfie-container'>
            <img src={Self} alt='me'/>
             <div
              className='social-links'>
-<Discord id='discord'/>
-<Github id = 'github'/>
-<LinkedIn id = 'linkedin'/>
+                 <ul>
+                     <Link><li id = 'discord'><Discord/></li></Link>
+                     <Link><li id ='github'><Github/></li></Link>
+                     <Link><li id ='linkedin'><LinkedIn/></li></Link>
+                 </ul>
             </div>
            <div className='titlename'>
                <h1>Jack Rigan</h1>

@@ -1,77 +1,51 @@
+.selfie-container img {
+  height: 350px;
+  user-select: none;
+
+}
 
 
-
-
-
-
-img {
-    height: 290px;
-    width:230px;
+.titlename {
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    user-select: none;
 }
 
 .social-links {
-    font-size: 35px;
     display: flex;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
     justify-content: center;
 }
 
-.titlename {
-    position: relative;
-    bottom: 250px;
-    color: white;
-   
+.social-links ul {
+    display: flex;
+    list-style: none;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .social-links {
+        font-size: 40px;
+        margin: 0;
+    }
+.selfie-container img {
+    height: 500px;
 }
 
 #github {
-    padding: 10px;
-    padding-bottom: 0;
-    padding-top:0;
-    color: white;
+    margin: 0;
 }
-
-
-#discord {
-    padding-top: 0;
-    padding-bottom: 0;
-    color: #74A3D8;
-}
-
-#linkedin {
-    color: #3579A0;
-
-}
-
-@media screen and (min-width:900px) {
-   .selfie-container {
-      position: relative;
-      color: white;
-   }
-
-   .titlename {
-       display: inline;
-       
-   }
-
-
-}
-
-
-
-
-@media screen and (min-width:1000px) {
-
-.selfie-container {
-    position: relative;
-    left: 350px;
+.titlename {
+    font-size:15px;
 }
 
 
 }
 
 
-@media screen and (min-width: 1440px) {
-    .selfie-container {
-        position: relative;
-        left: 500px;
-    }
-}

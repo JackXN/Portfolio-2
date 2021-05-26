@@ -1,0 +1,189 @@
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(45,49,51, 0.3);
+    transition: transform .2s;
+    border-radius: 20px;
+    padding: 20px;
+    border: solid white 2px;
+    box-shadow: 5px 5px 10px 5px black;
+    margin: 25px;
+
+}
+
+
+
+
+.skills-title h1 {
+       font-size: 45px;
+    font-weight: 700;
+    font-style: black;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+transition: all 700ms;
+color: white;
+padding: 15px;
+text-shadow: 10px 10px black;
+
+}
+
+.skills-text p {
+   
+    font-size: 25px;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 300;
+}
+
+.skills-text {
+    margin-top: 20px;
+   font-weight: 300;
+   font-family: 'Montserrat', sans-serif;
+   padding: 25px;
+}
+
+
+
+
+.language-icons {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
+.icon-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.icon-list li {
+    margin: 20px;
+    font-size: 50px;
+    transition: all 500ms;
+
+}
+
+.icon-list li:hover {
+ cursor: pointer;
+transform: scale(0.8);
+}
+
+
+
+
+#js {
+    color: #F1E158;
+}
+#css {
+    color: #573C7C;
+}
+
+#html {
+    color: #E08E0A;
+}
+
+#react {
+    color: #1B8CE6;
+}
+
+.skills-img img {
+height: 90%;
+width: 90%;
+
+
+}
+
+
+@media screen and (min-width: 1000px) {
+    .skills-img img {
+        height: 60%;
+        width: 60%;
+    }
+
+.margin-container {
+    padding: 20px;
+}
+
+.skills-container  {
+    margin: 0;
+}
+
+   
+
+}
+
+
+
+
+
+@media screen and (min-width: 1400px) {
+    .skills-container {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 4fr 4fr;
+        grid-template-rows: 3;
+        padding: 20px;
+    
+    }
+
+    .margin-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+
+  .skills-title h1 {
+     grid-row-start:2;
+      grid-column-end: 2;
+  }
+  
+  .skills-img img { 
+    
+      grid-row-start: 1;
+      grid-row-end: 2;
+    
+   width: 80%;
+      height: 80%;
+  }
+
+  .skills-text {
+    height: 100%;
+    padding: 5px;
+      
+      
+  }
+
+}
+
+@media screen and (min-width:1920px) {
+   
+    .skills-container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 4fr 4fr;
+        grid-template-rows: 3;
+        
+    
+    }
+
+
+    .skills-text {
+        margin-left: 100px;
+    }
+    .margin-container {
+        display: flex;
+    }
+
+    
+}
+
+

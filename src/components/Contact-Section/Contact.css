@@ -1,0 +1,95 @@
+.form-section {
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.form-section h1:nth-child(1) {
+    
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 40px;
+    text-shadow: rgb(0,0,0) 10px 10px;
+    font-size: 5rem;
+}
+
+
+
+
+
+
+.form {
+    padding-top: 25px;
+   
+    background :#1B1F20;
+    border: solid white 2px;
+    box-shadow: 10px 10px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 500px; */
+    width: 500px;
+    border-radius: 20px;
+  z-index: 10;
+}
+
+
+
+.form label {
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    
+
+}
+
+
+.form input {
+    padding: 10px;
+text-align: center;
+border: none;
+transition: all 900ms;
+
+}
+.form input:hover {
+    border: solid white 1px;
+
+}
+
+.form-img {
+    margin-left: 900px;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+#coffee{
+    height: 100%;
+    width: 60;
+    margin-bottom: 20px;
+}
+
+
+
+textarea {
+    height: 120px;
+    width: 300px;
+    border: solid white 1px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+textarea:hover {
+    border: solid white 1px;
+}
+.submit-btn {
+    margin: 50px;
+}

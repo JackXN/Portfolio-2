@@ -39,46 +39,25 @@ useEffect(() => {
 
     return (
         <>
-        <IconContext.Provider value={{color: '#fff'}}>
-        <Router>
-        <div className="navbar">
-        <div className="navbar-container container">
-
-            <Link onClick={closeMobileMenu} className ='navbar-logo' to ='/'>
-                <LogoTest/>
-                
-            </Link>
-
-            <div className="menu-icon" onClick={handleClick}>
-            {click ? <FaTimes/> : <FaBars/>}
-            </div>
-        <ul className = {click ? 'nav-menu active' : 'nav-menu'}>
-
-        <li className="nav-item">
-            <Link to = '/'className = 'nav-links' onClick={closeMobileMenu}>
-                View My Work
-            </Link>
-        </li>
-        <li className="nav-item">
-            <Link to = '/services'className = 'nav-links' onClick={closeMobileMenu} >
-                Skills
-            </Link>
-        </li>
-        <li className="nav-item">
-            <Link to = '/products'className = 'nav-links' onClick={closeMobileMenu}>
-                About
-            </Link>
-        </li>
+     <div className='menu-toggle'>
+         <div className='bar half start'></div>
+         <div className='bar'></div>
+         <div className='bar half end'></div>
+     </div>
+     <nav className='top-nav'>
+         <ul className='nav-list'>
+             <li className='nav-link'><a href='#'>Home</a></li>
+             <li className='nav-link'><a href='#'>About</a></li>
+             <li className='nav-link'><a href='#'>Projects</a></li>
+             <li className='nav-link'><a href='#'>Contact</a></li>
+         </ul>
+     </nav>
 
 
 
-        </ul>
-        </div>
-        </div>
 
-        </Router>
-        </IconContext.Provider>
-        </>
+
+     </>
     )
 }
 

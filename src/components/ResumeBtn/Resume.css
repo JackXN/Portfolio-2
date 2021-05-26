@@ -1,0 +1,35 @@
+.resume-btn {
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    background: none;
+    border: solid gray 1px;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: all 350ms;
+    font-weight: 500;
+
+}
+
+button:hover {
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+    border-right: none;
+    border-left: none;
+    border: none;
+    text-shadow: 10px 10px 10px black;
+    /* box-shadow: 10px 7px 10px black; */
+    
+}
+
+@media screen and (min-width: 1200px) {
+    button {
+        font-size: 15px;
+        padding: 20px;
+    }
+}

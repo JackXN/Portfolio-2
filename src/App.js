@@ -1,34 +1,46 @@
 
-import './App.css';
 
-import SelfieLinks from './components/SelfieLinks';
-import IntroText from './components/IntroText'
-import MoreScroll from './components/MoreScroll'
-import ProjectDisplay from './components/Projects-Section/ProjectDisplay';
-import Marginner from './components/Marginner';
-import Skills from './components/Skills-Section/Skills'
+import './App.css';
+import React,{useEffect} from 'react';
+import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
+import Home from './components/Landing-Page/Home'
 import About from './components/About-Section/About'
-import Nav from './components/Nav'
-import Circle from './components/assets/images/Ellipse9.png'
-import ResumeBtn from './components/ResumeBtn'
+import Projects from './components/Projects/Projects'
+import Skills from './components/Skills-Sectino/Skills'
+import Navbar from './components/Navbar/Navbar'
+import Marginner from './components/Marginner'
+import Contact from './components/Contact-Section/Contact'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
   return (
+<Router>
+  <Navbar/>
 
 <div className = 'App'>
-  <div className='wrapper'>
-  <Nav/>
-  <SelfieLinks/>
-  <ResumeBtn/>
-  <IntroText/>
-<Marginner/>
-<About/>
-<Skills/>
-<Marginner/>
-<ProjectDisplay/>
-</div>
+<div className='layer'>
+
+  <Route path = '/' exact>
+    <Home/>
+    <Marginner/>
+    <About/>
+    <Marginner/>
+   <Skills/>
+   <Marginner/>
+   <Projects/>
+   <Marginner/>
+   <Contact/>
+   
+   <Footer/>
+  </Route>
+  <Route path = '/about'>
+    <About/>
+  </Route>
     </div>
+    </div>
+</Router>
+
    
   );
 }

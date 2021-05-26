@@ -12,6 +12,7 @@
     font-weight: 500;
     text-transform: uppercase;
     font-weight: bold;
+
   }
 
 
@@ -24,6 +25,7 @@
  li a {
 color: lightslategray;
 transition: all 500ms;
+cursor: pointer;
 }
 
 a:hover {

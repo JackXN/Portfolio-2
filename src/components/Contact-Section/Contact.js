@@ -17,7 +17,7 @@ const handleSubmit = (e) => {
 
     db.collection('contacts').add({name:name, email:email, message:message, phone: phone,})
     .then(() => {
-        alert('Thanks! Ill get back to you asap')
+        alert("Thank you! I'll Be In Touch!")
     })
     .catch((error) => {
         alert(error.message)
@@ -42,7 +42,7 @@ const handleSubmit = (e) => {
 
            <label class ='form-space'>Email:
 
-            <input placeholder='Required' required onChange={(e) => setEmail(e.target.value)} value={email}/>
+            <input type='email'placeholder='Required' required onChange={(e) => setEmail(e.target.value)} value={email}/>
            </label>
            <label>Phone #:
            <input placeholder='Optional' onChange={(e) => setPhone(e.target.value)} value={phone}/>

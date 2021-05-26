@@ -31,6 +31,17 @@
     margin: 40px;
     text-shadow: rgb(0,0,0) 10px 10px;
     font-size: 5rem;
+    transition: all 500ms;
+}
+
+#projects-title:hover {
+    transform: scale(0.9);
+   text-shadow: none;  
+   box-shadow: 5px 5px 10px 5px black ;
+   background: #5C70A8;
+   cursor: pointer;
+   border-radius: 20px;
+   padding: 20px;
 }
 
 .display-container p {
@@ -125,8 +136,8 @@ margin: 10px;
 
 @media screen and (min-width: 1000px) {
     .project-showcase img {
-        height: 60%;
-        width: 60%;
+        height: 100%;
+        width: 100%;
         border-radius: 20px;
     }
 }

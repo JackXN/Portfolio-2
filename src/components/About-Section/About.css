@@ -17,14 +17,13 @@
 
 }
 
-#about-para {
-    font-size: 25px;
-    margin-bottom: 20px;
-}
 
-
-.about-title {
-    text-align: center;
+.about-title h1:hover{
+   cursor: pointer;
+   transform: scale(0.9);
+   text-shadow: none;  
+   box-shadow: 5px 5px 10px 5px black ;
+   background: #5C70A8;
    
 }
 
@@ -40,6 +39,22 @@ padding: 15px;
 text-shadow: 10px 10px black;
 }
 
+#about-title:hover {
+    text-shadow: none;
+}
+
+#about-para {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+.about-title {
+    text-align: center;
+   
+}
+
+
 
 
 .about-text {
@@ -54,17 +69,11 @@ text-shadow: 10px 10px black;
 
 .about-img img {
     
-    
     height: 90%;
     width: 90%;
     
 }
 
-.about-title  h1:hover{
-    cursor: pointer;
-  text-shadow: none;
-    opacity: 100%;
-}
 
 
 .container-two {
@@ -126,6 +135,7 @@ align-items: center;
 
 
     #about-title {
+
         font-size: 50px;
        
     }

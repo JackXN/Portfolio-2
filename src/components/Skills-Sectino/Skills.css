@@ -29,6 +29,14 @@ text-shadow: 10px 10px black;
 
 }
 
+.skills-title h1:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    text-shadow: none;  
+    box-shadow: 5px 5px 10px 5px black ;
+    background: #5C70A8;
+}
+
 .skills-text p {
    
     font-size: 25px;

@@ -12,9 +12,9 @@ function SelfieLinks() {
             <div
              className='social-links'>
                  <ul>
-                     <li><a href='https://www.discord.com' id = 'discord'><Discord/></a></li>
-                     <li><a  href='https://www.github.com' id ='github'><Github/></a></li>
-                     <li><a  href='https://www.linkedin.com/in/jack-rigan-2395811ba/' id='linkedin'><LinkedIn/></a></li>
+                     <li><a href='https://www.discord.com' id = 'discord'  target='_blank'><Discord/></a></li>
+                     <li><a  href='https://github.com/JackXN' id ='github' target='_blank'><Github/></a></li>
+                     <li><a   target='_blank' href='https://www.linkedin.com/in/jack-rigan-2395811ba/' id='linkedin'><LinkedIn/></a></li>
                  </ul>
             </div>
            <div className='titlename'>

@@ -10,11 +10,12 @@ const [name, setName] = useState('')
 const [email,setEmail] = useState('')
 
 const [message,setMessage] = useState('')
+const [phone,setPhone] = useState('')
 
 const handleSubmit = (e) => {
     e.preventDefault();
 
-    db.collection('contacts').add({name:name, email:email, message:message,})
+    db.collection('contacts').add({name:name, email:email, message:message, phone: phone,})
     .then(() => {
         alert('Thanks! Ill get back to you asap')
     })
@@ -24,6 +25,7 @@ const handleSubmit = (e) => {
     setName('')
     setEmail('')
     setMessage('')
+    setPhone('')
 }
 
     return (
@@ -35,18 +37,18 @@ const handleSubmit = (e) => {
        <img src={Coffee} alt='coffee' id='coffee'/>
 
            <label class='form-space'>Name:
-           <input placeholder='Required' onChange={(e) => setName(e.target.value)} value={name}/>
+           <input placeholder='Required' required onChange={(e) => setName(e.target.value)} value={name}/>
            </label>
 
            <label class ='form-space'>Email:
 
-            <input placeholder='Required' onChange={(e) => setEmail(e.target.value)} value={email}/>
+            <input placeholder='Required' required onChange={(e) => setEmail(e.target.value)} value={email}/>
            </label>
            <label>Phone #:
-           <input placeholder='Optional' onChange={(e) => setEmail(e.target.value)} value={email}/>
+           <input placeholder='Optional' onChange={(e) => setPhone(e.target.value)} value={phone}/>
            </label>
            <label>Leave Me A Message!
-           <textarea placeholder='Hello my name is....'></textarea>
+           <textarea onChange={(e) => setMessage(e.target.value)} value={message} placeholder='Hello my name is....' required></textarea>
            </label>
           
 <button type='submit' class='submit-btn'>Submit</button>

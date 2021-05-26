@@ -4,7 +4,7 @@ import './Resume.css'
 function Resume() {
     return (
         <div className='resume-btn'>
-            <button type='button'>Download My Resume!</button>
+            <button type='button'><a href='https://drive.google.com/file/d/1hvX-AaKlGv8QLUBwm6sn4NUzRDZd8UPq/view?usp=sharing' target='_blank'>Download My Resume!</a></button>
 
         </div>
     )

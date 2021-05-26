@@ -27,7 +27,7 @@ const handleSubmit = (e) => {
 }
 
     return (
-        <div className='form-section'>
+        <div className='form-section' id='contact'>
              <h1>Get In Touch!</h1>
              <div className='form-wrapper'>
              

@@ -7,7 +7,8 @@ import SkillImg from '../assets/images/whatdoido.png'
 
 function Skills() {
     return (
-        <div className='margin-container'>
+        
+        <div className='margin-container' >
         <div className='skills-container display-container container'>
 <div className='skills-img'>
     <img src={SkillImg} alt='Skillzzzz'/>
@@ -18,7 +19,7 @@ function Skills() {
                     <h1>What Do I Do?</h1>
                     
                 </div>
-                <div className='skills-text'>
+                <div className='skills-text'id='skills' >
                     <p>I build full stack web applications utilizing
 Dev Ops to test and solidify a project, before
 Deploying to production. For front end development

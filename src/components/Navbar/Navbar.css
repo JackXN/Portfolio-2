@@ -15,6 +15,12 @@
   }
 
 
+
+#nav-logo:hover {
+  transform: none;
+  display: inline;
+}
+
  li a {
 color: lightslategray;
 transition: all 500ms;

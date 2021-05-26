@@ -69,7 +69,7 @@ function Projects() {
 </div>
 <div className='display block-3'>
 
-<div className='project-showcase'>
+<div className='project-showcase' id='projects'>
     <img src={ProjectImg5} alt='project-2'/>
     <div className='project-description'>
     <h1>Weather Zen</h1>

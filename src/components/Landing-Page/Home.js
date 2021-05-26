@@ -4,9 +4,9 @@ import "./Home.css"
 import ResumeBtn from '../ResumeBtn/Resume'
 function Home() {
     return (
-        <div className='landing-page'>
+        <div className='landing-page' id='top'>
            
-            <div className='intro-text'>
+            <div className='intro-text' id='top'>
                   
 <SelfieLinks/>
 <ResumeBtn/>

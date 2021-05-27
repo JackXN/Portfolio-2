@@ -16,7 +16,7 @@ function Projects() {
     return (
       
 <div className='projects-container' >
-   <h1 id='projects-title'>Check Out My Creations!</h1>
+   <h1 id='projects-title'>View My Work!</h1>
 <div className='display-container' >
 
 <div className='display block-1'>

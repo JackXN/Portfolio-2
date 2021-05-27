@@ -18,6 +18,11 @@ color: lightgray;
 min-width: fit-content;
 
 
+
+}
+
+html,body * {
+  overflow-x: hidden;
 }
 
 

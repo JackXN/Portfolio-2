@@ -1,10 +1,13 @@
 .form-section {
-    height: 100vh;
+    height: 100%;
     padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: 5px 5px 10px 5px black;
+    padding: 20px;
+    
 }
 
 
@@ -25,18 +28,17 @@
 
 .form {
     padding-top: 25px;
-   
     background :#1B1F20;
-    
-    box-shadow: 10px 10px 10px black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height: 500px; */
+    height: 100%;
     width: 500px;
     border-radius: 20px;
   z-index: 10;
+  border: solid gray 1px;
+
 }
 
 
@@ -59,9 +61,11 @@ text-align: center;
 border: none;
 transition: all 900ms;
 margin-left: 20px;
-border: 1px solid transparent;
+border: 1px solid white;
+border-radius: 10px;
 background: none;
 color: white;
+
 
 }
 .form input:hover {
@@ -91,6 +95,7 @@ textarea {
     margin-top: 20px;
     text-align: center;
     border-radius: 20px;
+    background: none;
 }
 
 textarea:hover {

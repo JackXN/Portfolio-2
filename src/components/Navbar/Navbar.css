@@ -15,7 +15,9 @@
 
   }
 
-
+.navbar .container {
+  position: sticky;
+}
 
 #nav-logo:hover {
   transform: none;

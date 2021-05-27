@@ -1,9 +1,8 @@
 import React, {useState, useEffect} from 'react';
-import {MdFingerprint} from 'react-icons/md'
 import {FaBars, FaTimes } from 'react-icons/fa'
 import Logo from '../assets/images/JRLogo.png'
 import "./Navbar.css";
-import {iconContext, IconContext} from 'react-icons/lib';
+import { IconContext} from 'react-icons/lib';
 import {Link, animateScroll as scroll} from 'react-scroll';
 
        
@@ -11,7 +10,7 @@ import {Link, animateScroll as scroll} from 'react-scroll';
 const Navbar = () => {
 
     const [click, setClick] = useState(false);
-const [button, setButton] = useState(true)
+const [ button,setButton] = useState(true)
 
 const scrollToTop = () => {
     scroll.scrollToTop();
@@ -51,7 +50,7 @@ useEffect(() => {
               />
             </Link>
 
-            <div className="menu-icon" onClick={handleClick}>
+            <div className="menu-icon" onClick={handleClick} button={button}>
             {click ? <FaTimes/> : <FaBars/>}
             </div>
         <ul className = {click ? 'nav-menu active' : 'nav-menu'}>

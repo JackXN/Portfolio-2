@@ -4,7 +4,6 @@ import Self from './assets/images/self-portrait2.png'
 import {FaDiscord as Discord} from 'react-icons/fa' 
 import {AiFillGithub as Github} from 'react-icons/ai'
 import {AiFillLinkedin as LinkedIn} from 'react-icons/ai'
-import {Link} from 'react-router-dom'
 function SelfieLinks() {
     return (
         <div className='selfie-container'>
@@ -12,9 +11,9 @@ function SelfieLinks() {
             <div
              className='social-links'>
                  <ul>
-                     <li><a href='https://www.discord.com' id = 'discord'  target='_blank'><Discord/></a></li>
-                     <li><a  href='https://github.com/JackXN' id ='github' target='_blank'><Github/></a></li>
-                     <li><a   target='_blank' href='https://www.linkedin.com/in/jack-rigan-2395811ba/' id='linkedin'><LinkedIn/></a></li>
+                     <li><a rel="noopener noreferrer" href='https://www.discord.com' id = 'discord'  target='_blank'><Discord/></a></li>
+                     <li><a rel="noopener noreferrer" href='https://github.com/JackXN' id ='github' target='_blank'><Github/></a></li>
+                     <li><a rel="noopener noreferrer" target='_blank' href='https://www.linkedin.com/in/jack-rigan-2395811ba/' id='linkedin'><LinkedIn/></a></li>
                  </ul>
             </div>
            <div className='titlename'>

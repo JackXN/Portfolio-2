@@ -10,10 +10,10 @@ function Footer() {
         <div className='footer-container'>
             <div className='social-links'>
         <ul className='social-icons'>
-            <li ><a id='twitter' href='https://twitter.com/JackXN801' target='_blank'><Twitter/></a></li>
+            <li ><a id='twitter' href='https://twitter.com/JackXN801' target='_blank' rel="noopener noreferrer"><Twitter/></a></li>
             <li ><a id='discord'><Discord/></a></li>
-            <li ><a  target='_blank' href= 'https://www.linkedin.com/in/jack-rigan-2395811ba/'id='linkedin'><LinkedIn/></a></li>
-            <li> <a target='_blank' href='https://github.com/JackXN' id='github'><Github/></a></li>
+            <li ><a  target='_blank' rel="noopener noreferrer" href= 'https://www.linkedin.com/in/jack-rigan-2395811ba/'id='linkedin'><LinkedIn/></a></li>
+            <li> <a rel="noopener noreferrer" target='_blank' href='https://github.com/JackXN' id='github'><Github/></a></li>
         </ul>
 
             </div>

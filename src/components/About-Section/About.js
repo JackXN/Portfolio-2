@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import AboutImg from '../assets/images/AboutHello.png'
-import AboutImg2 from '../assets/images/whatdoido.png'
+
 function About() {
     return (
         <div className='container-two'>

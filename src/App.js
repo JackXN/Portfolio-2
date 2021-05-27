@@ -1,8 +1,8 @@
 
 
 import './App.css';
-import React,{useEffect} from 'react';
-import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
+import React from 'react';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Home from './components/Landing-Page/Home'
 import About from './components/About-Section/About'
 import Projects from './components/Projects/Projects'

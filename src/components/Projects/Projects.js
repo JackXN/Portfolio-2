@@ -2,17 +2,10 @@ import React, {useEffect} from 'react'
 import "./Projects.css"
 import Aos from 'aos';
 import 'aos/dist/aos.css'; 
-import ProjectImg1 from '../assets/images/Project-1.png'
-import ProjectImg2 from '../assets/images/Project-2.png'
-import ProjectImg3 from '../assets/images/Project-3.png'
-import ProjectImg4 from '../assets/images/pax-smp.png'
+
 import ProjectImg5 from '../assets/images/back-end-img.png'
-import {FaDiscord as Discord} from 'react-icons/fa' 
-import {AiFillGithub as Github} from 'react-icons/ai'
-import {AiFillLinkedin as LinkedIn} from 'react-icons/ai'
-import {DiReact as ReactIcon} from 'react-icons/di'
-import {BrowserRouter as Router, Link} from 'react-router-dom'
-import {SiJavascript as JavaScriptIcon, SiCss3 as CssThree, SiHtml5 as HTMLFive} from 'react-icons/si'
+
+import {SiJavascript as JavaScriptIcon, SiCss3 as CssThree} from 'react-icons/si'
 function Projects() {
 
     useEffect(() => {
@@ -42,7 +35,7 @@ function Projects() {
 </div>
 <div className='project-links'>
    
-   <button type='button'><a href='https://specter22.com' target='_blank'>Live Preview</a></button>
+   <button type='button'><a rel="noopener noreferrer" href='https://specter22.com' target='_blank'>Live Preview</a></button>
 </div>
 </div>
 <div className='display mid block-2'>

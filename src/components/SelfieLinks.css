@@ -25,8 +25,11 @@
 .social-links ul {
     display: flex;
     list-style: none;
+    transition:  all 500ms;
 }
 
+.social-links ul li:hover 
+{ transform: translateY(-10px); transition: transform 250ms; }
 
 
 

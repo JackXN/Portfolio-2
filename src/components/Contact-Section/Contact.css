@@ -27,7 +27,7 @@
     padding-top: 25px;
    
     background :#1B1F20;
-    border: solid white 2px;
+    
     box-shadow: 10px 10px 10px black;
     display: flex;
     flex-direction: column;
@@ -52,16 +52,20 @@
 }
 
 
+
 .form input {
     padding: 10px;
 text-align: center;
 border: none;
 transition: all 900ms;
 margin-left: 20px;
+border: 1px solid transparent;
+background: none;
+color: white;
 
 }
 .form input:hover {
-    border: solid white 1px;
+    border: 1px solid white;
 
 }
 

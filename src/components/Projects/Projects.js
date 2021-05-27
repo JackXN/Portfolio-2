@@ -11,6 +11,8 @@ function Projects() {
     useEffect(() => {
         Aos.init()
     },[])
+
+
     return (
       
 <div className='projects-container' >
@@ -23,7 +25,7 @@ function Projects() {
     <div className='project-description'>
     <h1>PAX SMP</h1>
     <p class='font-or-back'>[Front-End]</p>
-        <p>A basic website for a Minecraft Survival Server, used as a main directory for players to easily access all external resources for the server</p>
+        <p>A basic website for a Minecraft Game used as a main directory for players to easily access all external resources for the server</p>
         <div className='code-use'>
         <h1>Technologies Used</h1>
             <ul className='code-list'>

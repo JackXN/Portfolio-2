@@ -29,7 +29,8 @@
 }
 
 .social-links ul li:hover 
-{ transform: translateY(-10px); transition: transform 250ms; }
+{ transform: 
+    translateY(-10px); transition: transform 250ms; }
 
 
 

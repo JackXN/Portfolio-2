@@ -20,7 +20,7 @@ function Skills() {
                     
                 </div>
                 <div className='skills-text'id='skills' >
-                    <p>I build full stack web applications utilizing
+                    <p>I build web applications utilizing
 Dev Ops to test and solidify a project, before
 Deploying to production. For front end development
 I rely on JavaScript, React, and CSS3

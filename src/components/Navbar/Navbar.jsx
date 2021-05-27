@@ -50,7 +50,7 @@ useEffect(() => {
               />
             </Link>
 
-            <div className="menu-icon" onClick={handleClick} button={button}>
+            <div className="menu-icon" onClick={handleClick}>
             {click ? <FaTimes/> : <FaBars/>}
             </div>
         <ul className = {click ? 'nav-menu active' : 'nav-menu'}>

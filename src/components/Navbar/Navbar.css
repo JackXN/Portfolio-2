@@ -19,6 +19,7 @@
  li a {
 color: lightslategray;
 transition: all 500ms;
+position: sticky;
 }
 
 a:hover {
@@ -32,6 +33,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: sticky;
 }
 
 

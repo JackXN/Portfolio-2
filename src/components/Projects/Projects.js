@@ -3,8 +3,8 @@ import "./Projects.css"
 import Aos from 'aos';
 import 'aos/dist/aos.css'; 
 
-import ProjectImg5 from '../assets/images/back-end-img.png'
-
+import ProjectImg5 from '../assets/images/grubhubbg.png'
+import BackEndImg from '../assets/images/backend.png'
 import {SiJavascript as JavaScriptIcon, SiCss3 as CssThree} from 'react-icons/si'
 function Projects() {
 
@@ -21,7 +21,7 @@ function Projects() {
 
 <div className='display block-1'>
 <div className='project-showcase'>
-    <img src={ProjectImg5} alt='project-2'/>
+    <img src={BackEndImg} alt='project-2'/>
     <div className='project-description'>
     <h1>PAX SMP</h1>
     <p class='font-or-back'>[Front-End]</p>
@@ -66,7 +66,7 @@ function Projects() {
 <div className='display block-3'>
 
 <div className='project-showcase' id='projects'>
-    <img src={ProjectImg5} alt='project-2'/>
+    <img src={BackEndImg} alt='project-2'/>
     <div className='project-description'>
     <h1>Weather Zen</h1>
     <p class='font-or-back'>[Back-End]</p>

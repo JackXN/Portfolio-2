@@ -28,8 +28,6 @@ function App() {
     <Marginner/>
    <Skills/>
    <Marginner/>
-   <Projects/>
-   <Marginner/>
    <Contact/>
    
    <Footer/>

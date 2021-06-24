@@ -4,25 +4,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+overflow-x: hidden;
   
 }
 
 
-body {
-  min-width: fit-content;
-}
 
 html {
   font-size: 10px;
 color: lightgray;
-min-width: fit-content;
+
 
 
 
 }
 
-html,body * {
+html,body, * {
   overflow-x: hidden;
 }
 

@@ -203,10 +203,13 @@ width: 100%;
     }
 
     #about-img {
-    
         height: 100%;
         width: 100%;
        
+    }
+
+    #about-para {
+        padding: 20px;
     }
 
 

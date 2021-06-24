@@ -14,7 +14,7 @@ function About() {
             <p id='about-para'>My name is Jack Rigan.
 A 20 year old Norwegian web developer
 And designer, focused on creating developing 
-Quality websites with simple and sleek design. Outside of work im a skateboarder at heart and i love being outside in nature!</p>
+Quality websites with simple and sleek design. <br/>Outside of work im a skateboarder at heart and i love being outside in nature!</p>
 
         </div>
         </div>

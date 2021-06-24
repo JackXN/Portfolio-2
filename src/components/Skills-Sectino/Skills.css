@@ -179,19 +179,18 @@ width: 90%;
         align-items: center;
         grid-template-columns: 4fr 4fr;
         grid-template-rows: 3;
-        
+    }
+
+#skill-img {
     
-    }
+    align-self: center;
+    position: relative;
+   margin-left:35rem;
+}
 
+  
 
-    .skills-text {
-        margin-left: 100px;
-    }
-    .margin-container {
-        display: flex;
-    }
-
-    
+ 
 }
 
 

@@ -18,9 +18,9 @@ Quality websites with simple and sleek design. Outside of work im a skateboarder
 
         </div>
         </div>
-        <div className='about-img'>
-<img src={AboutImg} alt='about me!'/>
-        </div>
+        
+<img src={AboutImg} id='about-img'alt='about me!'/>
+        
 </div>
 
         </div>

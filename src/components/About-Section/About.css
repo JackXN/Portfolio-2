@@ -188,7 +188,7 @@ align-items: center;
   grid-template-columns: 2fr;
   grid-template-rows: 3;
   margin: 0;
-max-width: 1500px;
+width: 100%;
 
       }
 
@@ -200,6 +200,13 @@ max-width: 1500px;
 
       .about-text h1{
        text-shadow: 8px 7px black;
+    }
+
+    #about-img {
+    
+        height: 100%;
+        width: 100%;
+       
     }
 
 

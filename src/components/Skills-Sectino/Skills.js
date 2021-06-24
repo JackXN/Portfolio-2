@@ -10,10 +10,7 @@ function Skills() {
         
         <div className='margin-container' >
         <div className='skills-container display-container container'>
-<div className='skills-img'>
-    <img src={SkillImg} alt='Skillzzzz'/>
-</div>
-
+    <img src={SkillImg} id='skill-img'alt='Skillzzzz'/>
 <div className='skills-title'>
                     <div className='right-side'>
                     <h1>What Do I Do?</h1>

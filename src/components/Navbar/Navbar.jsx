@@ -10,7 +10,7 @@ import {Link, animateScroll as scroll} from 'react-scroll';
 const Navbar = () => {
 
     const [click, setClick] = useState(false);
-const [ setButton] = useState(true)
+const [button, setButton] = useState(true)
 
 const scrollToTop = () => {
     scroll.scrollToTop();

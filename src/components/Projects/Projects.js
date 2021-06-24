@@ -1,11 +1,9 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import "./Projects.css"
 import "./Projects-2.css"
 
 import {Link} from 'react-router-dom';
-import ProjectImg5 from '../assets/images/grubhubbg.png'
-import BackEndImg from '../assets/images/backend.png'
-import PlaceHold from '../assets/images/placehold.png'
+
 import {SiJavascript as JavaScriptIcon, SiCss3 as CssThree} from 'react-icons/si'
 import CleanCode from '../assets/images/clean-code.png'
 function Projects() {
@@ -18,7 +16,7 @@ function Projects() {
 <h1>Some Of My Work</h1>
 <div className='project-container'>
 <div className='box box-1'>
-<img src={CleanCode}></img>
+<img alt='project-img' src={CleanCode}></img>
 <h2>Grub Dash</h2>
 <p>Grub dash is an online delivery service for local restaurants. Grub Dash delivers for free to any place, any time</p>
 <div className='stack-used'>
@@ -40,7 +38,7 @@ function Projects() {
 </div>
 </div>
 <div className='box box-1'>
-<img src={CleanCode}></img>
+<img  src={CleanCode} alt='project-img'></img>
 <h2>PAX SMP</h2>
 <p>PAX SMP is a home directory for a local Minecraft vanilla server. A project i built for some friends who were developing a minecraft server </p>
 <div className='stack-used'>
@@ -62,7 +60,7 @@ function Projects() {
 </div>
 </div>
 <div className='box box-1'>
-<img src={CleanCode}></img>
+<img src={CleanCode} alt='project-img'></img>
 <h2>FlashCards</h2>
 <p>A flashcard study app that is designed to help quiz developers on the fundamentals of React</p>
 

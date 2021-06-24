@@ -81,7 +81,9 @@ text-shadow: 10px 10px black;
 transform: scale(0.8);
 }
 
-
+#skill-img {
+    height: 350px;
+}
 
 
 #js {
@@ -182,7 +184,7 @@ width: 90%;
     }
 
 #skill-img {
-    
+    height: 100%;
     align-self: center;
     position: relative;
    margin-left:35rem;

@@ -142,16 +142,11 @@ align-items: center;
   text-align: center;
 }
 
-
-    .about-img img {
-       height: 90%;
-    width: 100%;
-    margin-right: 40rem;
-  padding-right: 20px;
-        
-       
-
-    }
+#about-img {
+   padding: 50px;
+   height: 600px;
+   width: 1500px;
+}
 
     
 #about-para {

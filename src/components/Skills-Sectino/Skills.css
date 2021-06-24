@@ -154,15 +154,13 @@ width: 90%;
      grid-row-start:2;
       grid-column-end: 2;
   }
-  
-  .skills-img img { 
+ 
+
+#skill-img {
     
-      grid-row-start: 1;
-      grid-row-end: 2;
-    
-   width: 80%;
-      height: 80%;
-  }
+margin-left: 150px;
+height: 550px;
+}
 
   .skills-text {
     height: 100%;

@@ -31,6 +31,7 @@
 
 .skills-icons {
     font-size: 30px;
+    margin-top: 15px;
 }
 
 .skills-icons li {
@@ -58,6 +59,6 @@
 
 
 #skill-img {
-    height: 200px;
+    height: 250px;
     margin: 20px;
    }

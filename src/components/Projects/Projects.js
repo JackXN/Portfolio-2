@@ -2,17 +2,16 @@ import React from 'react'
 import "./Projects.css"
 import PAX from '../assets/images/pax-img.png'
 
-import {Link} from 'react-router-dom';
+
 
 import {SiJavascript as JavaScriptIcon, SiCss3 as CssThree} from 'react-icons/si'
-import CleanCode from '../assets/images/clean-code.png'
+
 function Projects() {
 
     return (
 <section className='projects-section'>
 <h1>Recent Projects</h1>
 <div className='projects-container'>
-
 <div className='projects-display'>
 <div className='project-1 project'>
 <img className='project-img'src={PAX} alt='paxx'/>

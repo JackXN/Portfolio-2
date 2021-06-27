@@ -13,14 +13,15 @@
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     margin-bottom: 20px;
+    background: #5C70A8;
 }
 
 
 .project-text {
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
     padding: 20px;
-    background-color: #17191A;
-    border: solid white 1px;
+   
+ 
   margin-top: 50px;
   border-radius: 20px;
 
@@ -77,6 +78,25 @@
 .code-used li {
     margin: 10px;
     font-size: 23px;
+}
+
+.project-1 {
+    background: #161616; 
+    transition: all 1s;
+}
+
+.project-1:hover {
+    border: solid white 1px;
+    cursor: pointer;
+}
+
+.project-2 {
+    background: #161616; 
+    transition: all 1s;
+}
+.project-2:hover {
+    border: solid white 1px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 1440px) {

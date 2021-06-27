@@ -8,9 +8,6 @@ import {SiJavascript as JavaScriptIcon, SiCss3 as CssThree} from 'react-icons/si
 import CleanCode from '../assets/images/clean-code.png'
 function Projects() {
 
-
-
-
     return (
 <section className='projects-section'>
 <h1>Some Of My Work</h1>

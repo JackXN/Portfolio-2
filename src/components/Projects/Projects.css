@@ -26,6 +26,10 @@
     text-shadow: rgb(0,0,0) 10px 10px;
     font-size: 5rem;
     transition: all 500ms;
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+
 }
 
 #projects-title:hover {

@@ -9,7 +9,6 @@ function Home() {
             <div className='intro-text'>
                   
 <SelfieLinks/>
-
 <ResumeBtn/>
             </div>
         </div>

@@ -1,8 +1,9 @@
 import React from 'react'
 import "./Skills.css"
 import {DiReact as ReactIcon} from 'react-icons/di'
-import {SiJavascript as JavaScriptIcon, SiCss3 as CssThree, SiHtml5 as HTMLFive} from 'react-icons/si'
+import {SiJavascript as JavaScriptIcon, SiCss3 as CssThree, SiHtml5 as HTMLFive, SiPostgresql as Posty,SiMocha as Mocha } from 'react-icons/si'
 import SkillImg from '../assets/images/whatdoido.png'
+
 
 
 function Skills() {
@@ -24,6 +25,8 @@ For data handling and server management</p>
     <li><ReactIcon id='react'className='skills-icons'/></li>
     <li><HTMLFive id='html'className='skills-icons'/></li>  
     <li><CssThree className='skills-icons' id='css'/></li> 
+    <li><Mocha className='skills-icon'/> </li>
+    <li><Posty className='skills-icon'/> </li>
 </ul>
 </div>
                 </div>

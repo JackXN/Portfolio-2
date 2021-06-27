@@ -9,8 +9,6 @@
 .about-container {
     background: #1B1F20;
     padding: 20px;
-
-
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -19,7 +17,25 @@
     margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
+    background: #5C70A8;
+    border-radius: 20px;
+    text-shadow: 5px 5px black;
+    box-shadow: 5px 5px black;
+    transition: all 600ms;
+    margin-bottom: 30px;
+    
 }
+.about-text h1:hover {
+    box-shadow: none;
+    text-shadow: none;
+    cursor: pointer;
+    transform: translate(0.2);
+    background: none;
+    transform: translate(10px);
+
+
+}
+
 
 .about-text p {
     font-size: 23px;
@@ -31,4 +47,25 @@
 #about-img {
  height: 200px;
  margin: 20px;
+}
+
+@media screen and (min-width: 1440px) {
+
+
+
+    .about-section {
+        padding: 80px;
+    }
+    .about-container {
+        padding: 80px;
+display: flex;
+    }
+
+    #about-img {
+        height: 430px;
+    }
+
+    .about-text {
+        width: 50%;
+    }
 }

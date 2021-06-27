@@ -8,7 +8,7 @@
     
 }
 
-.projects-container h1 {
+.projects-section h1 {
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -20,9 +20,33 @@
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     padding: 20px;
     background-color: #17191A;
+    border: solid white 1px;
+  margin-top: 50px;
+  border-radius: 20px;
 
 }
+.skills-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background: #5C70A8;
+    border-radius: 20px;
+    text-shadow: 5px 5px black;
+    box-shadow: 5px 5px black;
+    transition: all 600ms;
+    
+}
+.skills-text h1:hover {
+    box-shadow: none;
+    text-shadow: none;
+    cursor: pointer;
+    transform: translate(0.2);
+    background: none;
+    transform: translate(10px);
 
+
+}
 
 .project-text h3 {
     font-size: 27px;
@@ -53,4 +77,29 @@
 .code-used li {
     margin: 10px;
     font-size: 23px;
+}
+
+@media screen and (min-width: 1440px) {
+    .projects-display {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .projects-container {
+        padding: 20px;
+    }
+    .project-text {
+        padding: 30px;
+    }
+
+
+.project-img {
+    height: 250px;
+}
+
+
+
+
 }

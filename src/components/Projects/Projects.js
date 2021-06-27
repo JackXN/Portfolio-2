@@ -10,8 +10,9 @@ function Projects() {
 
     return (
 <section className='projects-section'>
-<div className='projects-container'>
 <h1>Recent Projects</h1>
+<div className='projects-container'>
+
 <div className='projects-display'>
 <div className='project-1 project'>
 <img className='project-img'src={PAX} alt='paxx'/>

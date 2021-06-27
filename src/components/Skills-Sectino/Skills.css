@@ -12,15 +12,15 @@
 
 .skills-text h1 {
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom:30px;
     font-family: 'Montserrat',sans-serif;
-    text-transition:uppercase;
 }
 
 
 .skills-text p {
     font-size: 23px;
     line-height: 35px;
+    
 }
 
 .skills-icons ul {
@@ -61,4 +61,33 @@
 #skill-img {
     height: 250px;
     margin: 20px;
+   }
+
+
+   @media screen and (min-width: 1440px) {
+
+    .skills-section {
+        padding: 80px;
+
+    }
+       .skills-container {
+           padding: 80px;
+           display: flex;
+       }
+
+       #skill-img {
+           height: 500px;
+        padding-left: 70px;
+           
+       }
+
+       .skills-text {
+           width: 60%;
+
+       }
+
+.skills-icons {
+    font-size: 50px;
+}
+
    }

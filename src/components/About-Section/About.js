@@ -22,6 +22,7 @@ A 20 year old Norwegian web developer
 And designer, focused on creating developing 
 Quality websites with simple and sleek design. <br/>Outside of work im a skateboarder at heart and i love being outside in nature!</p>
     </div>
+    <img id='about-img'src={AboutImg} alt=':D'/>
 
 
 

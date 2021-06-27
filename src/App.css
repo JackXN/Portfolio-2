@@ -13,17 +13,19 @@ overflow-x: hidden;
 html {
   font-size: 10px;
 color: lightgray;
+ background: #1B1F20;
 
 
 
 
 }
 
-html,body, * {
+html,body {
   overflow-x: hidden;
+  background: #17191A;
 }
 
-
+/* 191B1C */
 a {
   text-decoration: none;
   color: white;

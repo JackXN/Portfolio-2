@@ -7,44 +7,31 @@ import SkillImg from '../assets/images/whatdoido.png'
 
 function Skills() {
     return (
-        
-        <div className='margin-container' >
-        <div className='skills-container display-container container'>
-    <img src={SkillImg} id='skill-img'alt='Skillzzzz'/>
-<div className='skills-title'>
-                    <div className='right-side'>
-                    <h1>What Do I Do?</h1>
-                    
-                </div>
-                <div className='skills-text'id='skills' >
-                    <p>I build web applications utilizing
+        <section className='skills-section'>
+            <div className='skills-container'>
+                <div className='skills-text'>
+<h1>What Do I Do?</h1>
+<p>I build web applications utilizing
 Dev Ops to test and solidify a project, before
 Deploying to production. For front end development
 I rely on JavaScript, React, and CSS3
 I also utilize several other frameworks.
 For the backend I use Node.js, Express, and postgreSQL.
 For data handling and server management</p>
-</div>
-<div className='language-icons'>
-<ul className='icon-list'>
-    <li id='react'><ReactIcon/></li>
-    <li id='js'><JavaScriptIcon/></li>
-    <li id='html'><HTMLFive/></li>
-    <li id ='css' ><CssThree/></li>
+<div className='skills-icons'>
+<ul >
+    <li><JavaScriptIcon id='javascript'className='skills-icons'/></li>
+    <li><ReactIcon id='react'className='skills-icons'/></li>
+    <li><HTMLFive id='html'className='skills-icons'/></li>  
+    <li><CssThree className='skills-icons' id='css'/></li> 
 </ul>
 </div>
-</div>
+                </div>
+                <img id='skill-img' src={SkillImg} alt='skillzzz'/>
 
-                
+            </div>
+        </section>
 
-
-
-
-
-
-
-        </div>
-        </div>
     
     )
 }

@@ -11,15 +11,15 @@ function Skills() {
         <section className='skills-section'>
             <div className='skills-container'>
                 <div className='skills-text'>
-<h1>What Do I Do?</h1>
-<p>I build web applications utilizing
+<h1 data-aos='fade-down'>What Do I Do?</h1>
+<p data-aos='fade-up'>I build web applications utilizing
 Dev Ops to test and solidify a project, before
 Deploying to production. For front end development
 I rely on JavaScript, React, and CSS3
 I also utilize several other frameworks.
 For the backend I use Node.js, Express, and postgreSQL.
 For data handling and server management</p>
-<div className='skills-icons'>
+<div className='skills-icons' data-aos='fade-left'>
 <ul >
     <li><JavaScriptIcon id='javascript'className='skills-icons'/></li>
     <li><ReactIcon id='react'className='skills-icons'/></li>
@@ -30,7 +30,7 @@ For data handling and server management</p>
 </ul>
 </div>
                 </div>
-                <img id='skill-img' src={SkillImg} alt='skillzzz'/>
+                <img data-aos='zoom-in'id='skill-img' src={SkillImg} alt='skillzzz'/>
 
             </div>
         </section>

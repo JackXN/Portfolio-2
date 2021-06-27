@@ -21,20 +21,11 @@
     border-radius: 20px;
     text-shadow: 5px 5px black;
     box-shadow: 5px 5px black;
-    transition: all 600ms;
+    transition: all 900ms;
     margin-bottom: 30px;
     
 }
-.about-text h1:hover {
-    box-shadow: none;
-    text-shadow: none;
-    cursor: pointer;
-    transform: translate(0.2);
-    background: none;
-    transform: translate(10px);
 
-
-}
 
 
 .about-text p {

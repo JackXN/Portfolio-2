@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import {Link} from 'react-scroll';
-import {MdFingerprint} from 'react-icons/md'
+
 import {FaBars, FaTimes } from 'react-icons/fa'
 import "./Navbar.css";
 import { IconContext} from 'react-icons/lib';
@@ -10,30 +10,20 @@ import { IconContext} from 'react-icons/lib';
 const Navbar = () => {
 
     const [click, setClick] = useState(false);
-const [button, setButton] = useState(true)
+
 
 
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
-const showButton = () => {
-    if(window.innerWidth <= 960) {
-        setButton(false)
-    }else {
-        setButton(true)
-    }
-}
+
  
 
 
 
-useEffect(() => {
-    showButton();
-}, [])
 
 
-        window.addEventListener('resize', showButton)
 
     return (
         

@@ -32,10 +32,10 @@ const handleSubmit = (e) => {
         <div className='form-section' id='contact'>
              <h1>Get In Touch!</h1>
              <div className='form-wrapper'>
-             
+      
        <form className='form' onSubmit={handleSubmit}>
        <img src={Coffee} alt='coffee' id='coffee'/>
-
+       <div className='left-side'>
            <label class='form-space'>Name:
            <input placeholder='Required' required onChange={(e) => setName(e.target.value)} value={name}/>
            </label>
@@ -44,12 +44,15 @@ const handleSubmit = (e) => {
 
             <input type='email'placeholder='Required' required onChange={(e) => setEmail(e.target.value)} value={email}/>
            </label>
-           <label>Phone #:
+           <label>Phone:
            <input placeholder='Optional' onChange={(e) => setPhone(e.target.value)} value={phone}/>
            </label>
-           <label>Leave Me A Message!
+           <div className='textArea'>
+           <label>Leave Me A Message!</label>
            <textarea onChange={(e) => setMessage(e.target.value)} value={message} placeholder='Hello my name is....' required></textarea>
-           </label>
+        
+           </div>
+           </div>
           
 <button type='submit' class='submit-btn'>Submit</button>
 

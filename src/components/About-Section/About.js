@@ -16,7 +16,7 @@ function About() {
       <section className='about-section'>
 <div className='about-container'>
     <div className='about-text'>
-        <h1 data-aos='fade-right'>Who Am I?</h1>
+        <h1 data-aos='fade-right' id='about'>Who Am I?</h1>
         <p id='about-para' data-aos='fade-left'>My name is Jack Rigan.
 A 20 year old Norwegian web developer
 And designer, focused on creating developing 

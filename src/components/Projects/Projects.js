@@ -10,8 +10,9 @@ function Projects() {
 
     return (
 <section className='projects-section'>
-<h1 data-aos='fade-down'>Recent Projects</h1>
+
 <div className='projects-container'>
+<h1 data-aos='fade-down' id='projects'>Recent Projects</h1>
 <div className='projects-display'>
 <div data-aos='fade-left'className='project-1 project'>
 <img className='project-img'src={PAX} alt='paxx'/>
@@ -29,6 +30,7 @@ function Projects() {
 
 <div  data-aos='fade-right'className='project-2 project'>
 <img className='project-img'src={PAX} alt='paxx'/>
+
 <div className='project-text'>
 <h3>Atom</h3>
 <h4>[Front-End]</h4>

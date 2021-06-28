@@ -1,105 +1,75 @@
-.form-section {
-    height: 100%;
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-    
-}
-
-
-.form-section h1:nth-child(1) {
-    
-    font-family: 'Montserrat',sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 40px;
-    text-shadow: rgb(0,0,0) 10px 10px;
-    font-size: 5rem;
-}
-
-
-
-
-
-
-.form {
-    padding-top: 25px;
-    background :#1B1F20;
+.left-side {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 500px;
-    border-radius: 20px;
-  z-index: 10;
-  border: solid gray 1px;
-
+    text-align: center;
 }
-
-
-
-.form label {
+#contact {
     font-size: 20px;
+    margin: 10px;
+}
+.form-section {
+    padding: 25px;
+}
+.form-wrapper {
+    background: #1B1F20;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.textArea{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    height: 100%;
+    font-size: 15px;
+    margin: 10px;
     font-family: 'Montserrat',sans-serif;
     font-weight: 500;
-    padding: 20px;
-   
-    
-
+  
 }
 
 
-
-.form input {
-    padding: 10px;
-text-align: center;
-border: none;
-transition: all 900ms;
-margin-left: 20px;
-border: 1px solid white;
-border-radius: 10px;
-background: none;
-color: white;
-
-
+input {
+    margin-left: 15px;
+    border: none;
+    height: 30px;
+    text-align: center;
+    background: lightgray;
+    border-radius: 20px;
 }
-.form input:hover {
-    border: 1px solid white;
-
-}
-
-.form-img {
-    margin-left: 900px;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-}
-
-#coffee{
-    height: 100%;
-    width: 60;
-    margin-bottom: 20px;
-}
-
-
 
 textarea {
-    height: 120px;
-    width: 300px;
-    border: solid white 1px;
-    margin-top: 20px;
+    height: 60px;
+    width: 190px;
+   
+    border: none;
     text-align: center;
     border-radius: 20px;
-    background: none;
+    background: lightgray;
+    margin-bottom: 30px;
 }
 
-textarea:hover {
-    border: solid white 1px;
+
+@media screen and (min-width: 1440px){
+#contact {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    
 }
-.submit-btn {
-    margin: 50px;
+
+.form-section {
+    padding: 70px;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+}
+
 }

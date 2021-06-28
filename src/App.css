@@ -4,12 +4,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-overflow-x: hidden;
-  
 }
 
 
-
+li {
+  list-style: none;
+}
 html {
   font-size: 10px;
 color: lightgray;

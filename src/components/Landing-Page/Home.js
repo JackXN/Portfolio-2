@@ -6,7 +6,7 @@ function Home() {
     return (
         <div className='landing-page'>
            
-            <div className='intro-text'>
+            <div className='intro-text' id='home'>
                   
 <SelfieLinks/>
 <ResumeBtn/>

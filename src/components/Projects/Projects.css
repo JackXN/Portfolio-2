@@ -1,20 +1,32 @@
 .project{
     margin: 20px;
     padding: 20px;
+    
 }
 
+.projects-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .project-img {
     height: 200px;
     
 }
 
-.projects-section h1 {
+#projects {
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     margin-bottom: 20px;
     background: #5C70A8;
+width: 900px;
+    border-radius: 20px;
 }
+
+
 
 
 .project-text {
@@ -107,8 +119,14 @@
 
     }
 
+    #project {
+        padding-left: 50px;
+        padding-right: 50px;
+    
+    }
+
     .projects-container {
-        padding: 20px;
+        padding: 30px;
     }
     .project-text {
         padding: 30px;

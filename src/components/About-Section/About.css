@@ -19,15 +19,12 @@
     text-transform: uppercase;
     background: #5C70A8;
     border-radius: 20px;
-    text-shadow: 5px 5px black;
+    /* text-shadow: 5px 5px black; */
     box-shadow: 5px 5px black;
     transition: all 900ms;
     margin-bottom: 30px;
     
 }
-
-
-
 .about-text p {
     font-size: 23px;
     line-height: 35px;

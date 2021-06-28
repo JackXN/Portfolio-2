@@ -1,0 +1,27 @@
+.nav-container nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #34709A;
+    height: 40px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.nav-container  {
+    position: fixed;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ padding-bottom: 50px;
+}
+
+.nav-container li {
+    margin: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+}

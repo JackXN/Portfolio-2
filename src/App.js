@@ -7,7 +7,7 @@ import Home from './components/Landing-Page/Home'
 import About from './components/About-Section/About'
 import Projects from './components/Projects/Projects'
 import Skills from './components/Skills-Sectino/Skills'
-
+import Navbar from './components/Navbar/Navbar'
 import Marginner from './components/Marginner'
 import Contact from './components/Contact-Section/Contact'
 import Footer from './components/Footer/Footer'
@@ -16,7 +16,7 @@ function App() {
 
   return (
 <Router>
-
+<Navbar/>
 
 <div className = 'App'>
 <div className='layer'>

@@ -1,6 +1,7 @@
 .project{
     margin: 20px;
     padding: 20px;
+    border-radius: 20px;
     
 }
 
@@ -11,6 +12,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .project-img {
     height: 200px;
     
@@ -22,8 +24,11 @@
     text-transform: uppercase;
     margin-bottom: 20px;
     background: #5C70A8;
-width: 900px;
     border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -116,6 +121,7 @@ width: 900px;
         display: flex;
         align-items: center;
         justify-content: center;
+        
 
     }
 
@@ -126,7 +132,8 @@ width: 900px;
     }
 
     .projects-container {
-        padding: 30px;
+        padding: 80px;
+       
     }
     .project-text {
         padding: 30px;
@@ -140,4 +147,10 @@ width: 900px;
 
 
 
+}
+
+@media screen and (min-width: 2000px) {
+    .projects-display {
+        width: 50%;
+    }
 }

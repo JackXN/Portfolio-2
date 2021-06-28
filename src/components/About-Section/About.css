@@ -57,3 +57,34 @@ display: flex;
         width: 50%;
     }
 }
+
+@media screen and (min-width: 2000px) {
+ 
+
+    .about-section {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+  .about-text {
+      width: 40%;
+      margin-left: 10%;
+      
+  }
+
+  .about-text p {
+      font-size: 23px;
+      line-height: 40px;
+    
+  }
+
+  #about-img {
+   margin-left: 200px;
+   height: 600px;
+  
+   
+  }
+}

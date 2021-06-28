@@ -11,19 +11,8 @@ const Navbar = () => {
 
     const [click, setClick] = useState(false);
 
-
-
-
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
-
-
- 
-
-
-
-
-
 
     return (
         
@@ -52,16 +41,22 @@ const Navbar = () => {
             </Link>
         </li>
         <li className="nav-item">
-            <Link to = 'contact'className ='nav-links'  smooth={true} duration={1000} onClick={closeMobileMenu} >
-               Contact
+            <Link to = 'skills'className = 'nav-links' smooth={true} duration={1000} onClick={closeMobileMenu}>
+                Skills
             </Link>
         </li>
-      
         <li className="nav-item">
             <Link to ='projects' smooth={true} duration={1000} className = 'nav-links' onClick={closeMobileMenu}>
                 Projects
             </Link>
         </li>
+        <li className="nav-item">
+            <Link to = 'contact'className ='nav-links'  smooth={true} duration={1000} onClick={closeMobileMenu} >
+               Contact
+            </Link>
+        </li>
+      
+ 
 
     
 

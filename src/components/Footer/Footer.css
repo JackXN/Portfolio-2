@@ -1,33 +1,30 @@
 .footer-container {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding-top: 150px;
+   height: 100px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 25px;
+    font-size: 15px;
+}
+
+.links {
+    font-size: 25px;
+    margin: 10px;
+
 }
 
 
-
-#twitter {
-    color: #0C76B8;
+.linkedin {
+    color: #0C66C3;
 }
 
-.social-icons {
-    font-size: 50px;
-    
-
-}
-.social-icons li {
-    margin: 20px;
-    transition: all 500ms;
-    
+.twitter {
+    color: #1CA0F2;
 }
 
-.social-icons li:hover {
-   transform: scale(1.2);
-
-   
- 
-   
-
+.discord {
+    color: #7289DB;
 }
 

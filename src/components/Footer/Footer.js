@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import {Link} from 'react-router-dom'
 import {AiFillTwitterSquare as Twitter} from 'react-icons/ai' 
 import {FaDiscord as Discord} from 'react-icons/fa' 
 import {AiFillGithub as Github} from 'react-icons/ai'
@@ -7,17 +8,17 @@ import {AiFillLinkedin as LinkedIn} from 'react-icons/ai'
 
 function Footer() {
     return (
-        <div className='footer-container'>
+     <div className='footer-container'>
+         <footer>
+        <a className='links github' href='https://github.com/JackXN' ><Github/></a>
+        <a className='links discord' href='discord.com' ><Discord/></a>
+        <a className='links linkedin' href='https://www.linkedin.com/in/jack-rigan/' ><LinkedIn/></a>
+        <a className='links twitter' href='https://twitter.com/JackXN801' ><Twitter/></a>
 
-            <div className='social-links'>
-        <ul className='social-icons'>
-            <li ><a id='twitter' href='https://twitter.com/JackXN801' target='_blank' rel="noopener noreferrer"><Twitter/></a></li>
-            <li ><a id='discord'><Discord/></a></li>
-            <li ><a  target='_blank' rel="noopener noreferrer" href= 'https://www.linkedin.com/in/jack-rigan-2395811ba/'id='linkedin'><LinkedIn/></a></li>
-            <li> <a rel="noopener noreferrer" target='_blank' href='https://github.com/JackXN' id='github'><Github/></a></li>
-        </ul>
-            </div>
-        </div>
+
+         <p>Copyright @2021 Jack Rigan. All Rights Reserved.</p>
+         </footer>
+     </div>
     )
 }
 

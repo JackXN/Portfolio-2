@@ -7,7 +7,7 @@
     position: sticky;
 
     z-index: 999;
-    /* background: #1c2237; */
+   
   }
   
   .navbar-container {
@@ -16,7 +16,13 @@
     height: 80px;
   
   }
-  
+  .nav-links {
+      display: inline-block;
+      position: relative;
+      
+  }
+
+
   
   
   .navbar-logo {
@@ -54,23 +60,67 @@
     position: relative;
     
   }
+
+
   
-  .nav-item:hover {
-    border-bottom: 2px solid #475683;
-    cursor: pointer;
+
+
+  .nav-item:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+   
   }
+
+  .nav-item:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+   
+  }
+
+
+
+
   
   .nav-links {
-    color: #fff;
+    color: darkgray;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Montserrat',sans-serif;
     font-style: medium;
+    cursor: pointer;
+    transition: all 600mss;
   }
+
+  .nav-links:hover {
+      color: #fff;
+  }
+
+  .nav-links::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+
   
   .fa-bars {
     color: #fff;
@@ -159,11 +209,18 @@
 
   @media screen and (min-width: 960px) {
       .nav-menu {
-       
+       margin-left: 100px;
           padding: 20px;
       }
 
      .nav-links {
          font-weight: 500;
      }
+  }
+
+  @media screen and (min-width: 1440px) {
+      .nav-menu {
+          margin-left: 250px;
+          padding: 20px;
+      }
   }

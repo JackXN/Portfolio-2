@@ -4,6 +4,18 @@
     padding: 20px;
 }
 
+#workflow {
+    margin-top: 30px;
+}
+#posty {
+    color: #31658D;
+}
+
+#mocha {
+    color: #886546;
+}
+
+
 .skills-container {
     background: #1B1F20;
     padding: 20px;
@@ -16,7 +28,9 @@
     font-family: 'Montserrat',sans-serif;
     text-shadow: none;
 }
-
+.skills-text h1:hover {
+   background: #5C70A8;
+}
 
 .skills-text p {
     font-size: 23px;
@@ -37,7 +51,9 @@
 
 .skills-icons li {
     margin: 10px;
+    transition: all 1s;
 }
+
 
 
 #javascript {
@@ -91,4 +107,34 @@
     font-size: 50px;
 }
 
+   }
+
+   @media screen and (min-width: 2000px) {
+      .skills-text {
+          margin-left: 300px;
+          width: 60%;
+          padding-left: 150px;
+          padding-right: 150px;
+      }
+
+      #skill-img {
+        height: 800px;
+       
+        position: relative;
+        bottom: 50px;
+         
+      }
+   }
+
+   @media screen and (min-width: 2400px) {
+       #skill-img {
+           position: relative;
+           bottom:50px;
+           margin-left: 200px;
+       }
+
+       .skills-text {
+           margin-left: 100px;
+           margin-top: 100px;
+       }
    }

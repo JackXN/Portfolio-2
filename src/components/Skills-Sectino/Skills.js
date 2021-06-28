@@ -8,29 +8,26 @@ import SkillImg from '../assets/images/whatdoido.png'
 
 function Skills() {
     return (
-        <section className='skills-section'>
+        <section className='skills-section' id='skills'>
             <div className='skills-container'>
+            <img data-aos='zoom-in'id='skill-img' src={SkillImg} alt='skillzzz'/>
                 <div className='skills-text'>
+               
 <h1 data-aos='fade-down'>What Do I Do?</h1>
-<p data-aos='fade-up'>I build web applications utilizing
-Dev Ops to test and solidify a project, before
-Deploying to production. For front end development
-I rely on JavaScript, React, and CSS3
-I also utilize several other frameworks.
-For the backend I use Node.js, Express, and postgreSQL.
-For data handling and server management</p>
+<p data-aos='fade-up'>I build full scale web applications, meaning i utilize my skills in both the front end and backend to be able to design a webpage and implement functionality with React, Css, and various other libraries. I then build the backend with Node, SQL, express and others.I am also efficient in writing my own tests for the code using Mocha and Chai. </p> 
+<p id='workflow'>My workflow for new projects is simple yet efficient. I learn the objective of the project, then discuss all the details with all the parties involved. Then i like to establish a roadmap and a project management system that is shared for the project. I then read the needed requirements and make sure to always keep in touch with all who are involved with the process. </p>
 <div className='skills-icons' data-aos='fade-left'>
 <ul >
     <li><JavaScriptIcon id='javascript'className='skills-icons'/></li>
     <li><ReactIcon id='react'className='skills-icons'/></li>
     <li><HTMLFive id='html'className='skills-icons'/></li>  
     <li><CssThree className='skills-icons' id='css'/></li> 
-    <li><Mocha className='skills-icon'/> </li>
-    <li><Posty className='skills-icon'/> </li>
+    <li><Mocha className='skills-icon' id='mocha'/> </li>
+    <li><Posty className='skills-icon'id ='posty'/> </li>
 </ul>
 </div>
                 </div>
-                <img data-aos='zoom-in'id='skill-img' src={SkillImg} alt='skillzzz'/>
+                
 
             </div>
         </section>

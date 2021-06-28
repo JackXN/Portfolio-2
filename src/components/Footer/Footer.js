@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import {Link} from 'react-router-dom'
 import {AiFillTwitterSquare as Twitter} from 'react-icons/ai' 
 import {FaDiscord as Discord} from 'react-icons/fa' 
 import {AiFillGithub as Github} from 'react-icons/ai'

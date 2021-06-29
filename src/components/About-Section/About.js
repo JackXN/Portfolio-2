@@ -18,11 +18,10 @@ function About() {
     <div className='about-text'>
         <h1 data-aos='fade-right' >Who Am I?</h1>
         <p id='about-para' data-aos='fade-left'>
-        I am a 20 year old Norwegian web developer currently living in salt lake city utah.
-I began my web development journey 2 years ago when i discovered the possibilities associated with the tech industry. I have always loved computers and so i decided to start learning their language. A year later i am now entering the professional field in hopes to learn and become a skilled technician in the field.
+        I began my web development journey over a year ago, mostly learning HTML & CSS. After a few months i fell inlove and decided i wanted to accelarate my skills with hopes of turning it into a career. After this decision i enrolled in an online bootcamp that was focused on teaching the fundamentals of building full scale web applications.
             </p>
             <br/>
-        <p>Outside of work i love skateboarding and hanging out with friends, just like any other normal person my age. I like learning new things and meating new people who share similar interests. I also make sure to make time for other things, other than code. I like to think i have a healthy balance between my professional life and personal life. </p>
+        
     </div>
     <img data-aos='fade-down' data-aos-duration="500" id='about-img'src={AboutImg} alt=':D'/>
 

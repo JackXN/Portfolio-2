@@ -15,7 +15,7 @@ function Skills() {
                
 <h1 data-aos='fade-down'>What Do I Do?</h1>
 <p data-aos='fade-up'>I build full scale web applications, meaning i utilize my skills in both the front end and backend to be able to design a webpage and implement functionality with React, Css, and various other libraries. I then build the backend with Node, SQL, express and others.I am also efficient in writing my own tests for the code using Mocha and Chai. </p> 
-<p id='workflow'>My workflow for new projects is simple yet efficient. I learn the objective of the project, then discuss all the details with all the parties involved. Then i like to establish a roadmap and a project management system that is shared for the project. I then read the needed requirements and make sure to always keep in touch with all who are involved with the process. </p>
+
 <div className='skills-icons' data-aos='fade-left'>
 <ul >
     <li><JavaScriptIcon id='javascript'className='skills-icons'/></li>

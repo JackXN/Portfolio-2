@@ -5,6 +5,29 @@
     
 }
 
+.javascript{
+    color: #E8D54C;
+}
+
+.react{
+    color: #78D9F7;
+}
+
+.css {
+    color: #2762E9;
+}
+
+
+.project button {
+    margin: 10px;
+}
+
+
+.code-used {
+    display: none;
+}
+
+
 .projects-container {
     text-align: center;
     display: flex;
@@ -86,7 +109,7 @@
 
 
 .code-used {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     
@@ -125,6 +148,7 @@
 
     }
 
+
     #project {
         padding-left: 50px;
         padding-right: 50px;
@@ -135,8 +159,15 @@
         padding: 80px;
        
     }
-    .project-text {
-        padding: 30px;
+    
+    .project-1 {
+        width: 60%;
+        height: 700px;
+    }
+
+    .project-2 {
+        width: 60%;
+        height: 700px;
     }
 
 

@@ -14,7 +14,8 @@ function Skills() {
                 <div className='skills-text'>
                
 <h1 data-aos='fade-down'>What Do I Do?</h1>
-<p data-aos='fade-up'>I build full scale web applications, meaning i utilize my skills in both the front end and backend to be able to design a webpage and implement functionality with React, Css, and various other libraries. I then build the backend with Node, SQL, express and others.I am also efficient in writing my own tests for the code using Mocha and Chai. </p> 
+<p data-aos='fade-up'>I build full-scale web applications. My main focus of an application is to ensure fast load times and lag free interactions, Responsive layouts, intuitive UX/UI and a dynamic layout that includes some animations and a little bit of life. Although i specialize in front end development, i am also comfortable building back end applications as well.
+ </p> 
 
 <div className='skills-icons' data-aos='fade-left'>
 <ul >

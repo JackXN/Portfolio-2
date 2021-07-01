@@ -16,9 +16,9 @@ function About() {
       <section className='about-section' id='about'>
 <div className='about-container'>
     <div className='about-text'>
-        <h1 data-aos='fade-right' >Who Am I?</h1>
+        <h1 data-aos='fade-right' >Me Myself, & I</h1>
         <p id='about-para' data-aos='fade-left'>
-        I began my web development journey over a year ago, mostly learning HTML & CSS. After a few months i fell inlove and decided i wanted to accelarate my skills with hopes of turning it into a career. After this decision i enrolled in an online bootcamp that was focused on teaching the fundamentals of building full scale web applications.
+  I am a Full-Stack Developer born in Sandefjord, Norway, but currently living in Salt Lake City, UT. As a recent bootcamp graduate i am frequently looking for new projects and people to collaborate with. When im not coding im probably skateboarding.
             </p>
             <br/>
         

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Projects.css"
-import PAX from '../assets/images/pax-img.png'
+import RES from '../assets/images/res-app.png'
 import Decoder from '../assets/images/Decoder-ss.png'
 import Lib from '../assets/images/local-lib.png'
 import {Link} from 'react-router-dom';
@@ -31,7 +31,7 @@ function Projects() {
 
 
 <div  data-aos='fade-right'className='project-2 project'>
-<img className='project-img'src={PAX} alt='paxx'/>
+<img className='project-img'src={RES} alt='paxx'/>
 
 <div className='project-text'>
 <h3><span id='p'>Restaurant </span> Reservations</h3>

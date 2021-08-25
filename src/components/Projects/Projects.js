@@ -3,6 +3,7 @@ import "./Projects.css"
 import PAX from '../assets/images/pax-img.png'
 import Decoder from '../assets/images/Decoder-ss.png'
 import Lib from '../assets/images/local-lib.png'
+import {Link} from 'react-router-dom';
 
 import {SiJavascript as JavaScriptIcon, SiCss3 as CssThree, SiReact as ReactIcon, SiHtml5} from 'react-icons/si'
 
@@ -33,20 +34,18 @@ function Projects() {
 <img className='project-img'src={PAX} alt='paxx'/>
 
 <div className='project-text'>
-<h3><span id='p'>PAX</span> SMP</h3>
+<h3><span id='p'>Restaurant </span> Reservations</h3>
 
-<p>A front-end freelance project built for a minecraft server. Being used as the main directory for everything related</p>
+<p>An easy to use platform designed for restaurants to manage reservations and tables, while keeping track of customer data.</p>
 <ul className='code-used'>
     <li className='javascript'><JavaScriptIcon /></li>
     <li className='css'><CssThree/></li>
     <li className='react'><ReactIcon/></li>
 </ul>
-<button><a href='https://pax-smp-a3vnz1kgq-jackxn.vercel.app/'>Launch</a></button>
+<button><a href='https://res-final-client.herokuapp.com/dashboard'>Launch</a></button>
+<button><a href='https://github.com/JackXN/reservations-capstone'>Github</a></button>
 </div>
 </div>
-
-
-
 
 <div  data-aos='fade-right'className='project-2 project'>
 <img className='project-img'src={Decoder} alt='Decoder'/>
@@ -64,7 +63,10 @@ function Projects() {
 
 
 
+
 </div>
+
+<Link to='/projects'><button>View All My Projects</button></Link>
 
 </div>
 

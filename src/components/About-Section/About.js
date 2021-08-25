@@ -24,15 +24,7 @@ function About() {
         
     </div>
     <img data-aos='fade-down' data-aos-duration="500" id='about-img'src={AboutImg} alt=':D'/>
-
-
-
-
-
 </div>
-
-
-
       </section>
     )
 }

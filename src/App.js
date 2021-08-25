@@ -31,7 +31,6 @@ function App() {
    <Projects/>
    <Marginner/>
    <Contact/>
-   
    <Footer/>
   </Route>
   <Route path = '/about'>

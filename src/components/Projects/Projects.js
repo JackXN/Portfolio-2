@@ -2,7 +2,7 @@ import React from 'react'
 import "./Projects.css"
 import RES from '../assets/images/res-app.png'
 import Decoder from '../assets/images/Decoder-ss.png'
-import Lib from '../assets/images/local-lib.png'
+import Lib from '../assets/images/td-pc.png'
 import {Link} from 'react-router-dom';
 
 import {SiJavascript as JavaScriptIcon, SiCss3 as CssThree, SiReact as ReactIcon, SiHtml5} from 'react-icons/si'
@@ -17,15 +17,15 @@ function Projects() {
 <div data-aos='fade-left'className='project-1 project'>
 <img className='project-img'src={Lib} alt='paxx'/>
 <div className='project-text'>
-<h3>Library Admin</h3>
-<p>A dashboard built for a fictional library that displays records of borrowed and returned books, along with the customers that are associated with those transactions </p>
+<h3>Tinkers Todos</h3>
+<p> A simple todo list designed to help people like Tinker, keep all of their tasks organized in one place. It allows you to mark a task as complete and also remove tasks from the list completely</p>
 <ul className='code-used'>
     <li><JavaScriptIcon className='javascript'/></li>
     <li><CssThree className='css'/></li>
     <li><SiHtml5/></li>
 </ul>
-<button><a href='https://jackxn.github.io/Local-Library-Project/'>Launch</a></button>
-<button><a href='https://github.com/JackXN/Local-Library-Project'>Github</a></button>
+<button><a href='https://app.netlify.com/sites/compassionate-haibt-d8c1ff/overview'>Launch</a></button>
+<button><a href='https://github.com/JackXN/Todo-mvc'>Github</a></button>
 </div>
 </div>
 
@@ -67,7 +67,6 @@ function Projects() {
 </div>
 
 <Link to='/projects'><button>View All My Projects</button></Link>
-
 </div>
 
 

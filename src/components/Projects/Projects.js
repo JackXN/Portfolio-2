@@ -24,7 +24,7 @@ function Projects() {
     <li><CssThree className='css'/></li>
     <li><SiHtml5/></li>
 </ul>
-<button><a href='https://app.netlify.com/sites/compassionate-haibt-d8c1ff/overview'>Launch</a></button>
+<button><a href='https://compassionate-haibt-d8c1ff.netlify.app/'>Launch</a></button>
 <button><a href='https://github.com/JackXN/Todo-mvc'>Github</a></button>
 </div>
 </div>

@@ -4,8 +4,7 @@ import './Resume.css'
 function Resume() {
     return (
         <div className='resume-btn'>
-            <button type='button'><a rel="noopener noreferrer" href='https://drive.google.com/file/d/1hrQhYCpaSEMNcg3hfrH6PN51EOXjQqT9/view?usp=sharing' target='_blank'>Download My Resume!</a></button>
-
+            <button type='button'><a rel="noopener noreferrer" href='https://drive.google.com/file/d/17zRDG8RHvMqohRWCveToqYLXtKkrmGqK/view?usp=sharing' target='_blank'>Download My Resume!</a></button>
         </div>
     )
 }

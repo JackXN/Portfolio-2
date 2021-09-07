@@ -66,7 +66,7 @@ function Projects() {
 
 </div>
 
-<Link to='/projects'><button>View All My Projects</button></Link>
+<button type='button'><a rel="noopener noreferrer" href='https://github.com/JackXN'target='_blank'>View All My Pojects</a></button>
 </div>
 
 

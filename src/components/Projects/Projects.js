@@ -3,29 +3,29 @@ import "./Projects.css"
 import RES from '../assets/images/res-app.png'
 import Decoder from '../assets/images/Decoder-ss.png'
 import Lib from '../assets/images/td-pc.png'
+import Community from '../assets/images/community.png';
 import {Link} from 'react-router-dom';
 
 import {SiJavascript as JavaScriptIcon, SiCss3 as CssThree, SiReact as ReactIcon, SiHtml5} from 'react-icons/si'
 
 function Projects() {
-
     return (
 <section className='projects-section'>
 <div className='projects-container'>
 <h1 data-aos='fade-down' id='projects'>Recent Projects</h1>
 <div className='projects-display'>
 <div data-aos='fade-left'className='project-1 project'>
-<img className='project-img'src={Lib} alt='paxx'/>
+<img className='project-img'src={Community} alt='paxx'/>
 <div className='project-text'>
-<h3>Tinkers Todos</h3>
-<p> A simple todo list designed to help people like Tinker, keep all of their tasks organized in one place. It allows you to mark a task as complete and also remove tasks from the list completely</p>
+<h3>comuniti Live Chat</h3>
+<p> A live chat application built with utilizing the react context provider and google authentication for user login. It allows users to chat in real time as well as create personalised chat rooms to interact with friends</p>
 <ul className='code-used'>
     <li><JavaScriptIcon className='javascript'/></li>
     <li><CssThree className='css'/></li>
     <li><SiHtml5/></li>
 </ul>
-<button><a href='https://compassionate-haibt-d8c1ff.netlify.app/'>Launch</a></button>
-<button><a href='https://github.com/JackXN/Todo-mvc'>Github</a></button>
+<button><a href='https://chatapp-d95b6.web.app/'>Launch</a></button>
+<button><a href='https://github.com/JackXN/communiti-chat'>Github</a></button>
 </div>
 </div>
 

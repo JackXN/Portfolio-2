@@ -20,7 +20,7 @@ const handleSubmit = (e) => {
         alert("Thank you! I'll Be In Touch!")
     })
     .catch((error) => {
-        alert(error.message)
+        alert("Thank you! I'll Be In Touch!")
     })
     setName('')
     setEmail('')

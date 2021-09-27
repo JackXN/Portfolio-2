@@ -2,9 +2,7 @@ import React from 'react'
 import "./Projects.css"
 import RES from '../assets/images/res-app.png'
 import Decoder from '../assets/images/Decoder-ss.png'
-import Lib from '../assets/images/td-pc.png'
 import Community from '../assets/images/community.png';
-import {Link} from 'react-router-dom';
 
 import {SiJavascript as JavaScriptIcon, SiCss3 as CssThree, SiReact as ReactIcon, SiHtml5} from 'react-icons/si'
 

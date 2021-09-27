@@ -17,7 +17,7 @@ function Projects() {
 <div data-aos='fade-left'className='project-1 project'>
 <img className='project-img'src={Community} alt='paxx'/>
 <div className='project-text'>
-<h3>comuniti Live Chat</h3>
+<h3>Communiti Live Chat</h3>
 <p> A live chat application built with utilizing the react context provider and google authentication for user login. It allows users to chat in real time as well as create personalised chat rooms to interact with friends</p>
 <ul className='code-used'>
     <li><JavaScriptIcon className='javascript'/></li>

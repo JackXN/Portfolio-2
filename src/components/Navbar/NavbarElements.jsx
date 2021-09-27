@@ -63,7 +63,7 @@ export const MenuLink = styled.a`
   text-align: center;
   text-decoration: none;
   transition: all 0.3s ease-in;
-  font-size: 20px;
+  font-size: 15px;
   border-bottom: 2px solid transparent
   color: white;
 

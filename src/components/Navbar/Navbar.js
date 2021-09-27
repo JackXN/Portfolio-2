@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import {
   Nav,
   Hamburger,
-  Logo,
   Menu,
   MenuLink,
-  MenuButton,
 } from "./NavbarElements";
 import {Link} from 'react-scroll'
 import Sticky from 'react-stickynode';
@@ -15,15 +13,15 @@ import Sticky from 'react-stickynode';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [isSticky, setIsSticky] = useState(false);
+//   const [isSticky, setIsSticky] = useState(false);
 
-  const handleStateChange = (status) => {
-    if(status.status === Sticky.STATUS_FIXED) {
-        setIsSticky(true)
-    }else if(status.status === Sticky.STATUS_ORIGINAL) {
-        setIsSticky(false)
-    }
-}
+//   const handleStateChange = (status) => {
+//     if(status.status === Sticky.STATUS_FIXED) {
+//         setIsSticky(true)
+//     }else if(status.status === Sticky.STATUS_ORIGINAL) {
+//         setIsSticky(false)
+//     }
+// }
 
 
 

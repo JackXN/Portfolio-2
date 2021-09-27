@@ -1,67 +1,56 @@
-import React, {useState} from 'react';
-import {Link} from 'react-scroll';
-
-import {FaBars, FaTimes } from 'react-icons/fa'
-import "./Navbar.css";
-import { IconContext} from 'react-icons/lib';
-
-       
-
-const Navbar = () => {
-
-    const [click, setClick] = useState(false);
-
-    const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
-
-    return (
-        
-        <IconContext.Provider value={{color: '#fff'}}>
-   
-        <div className="navbar">
-        <div className="navbar-container container">
+import React, { useState } from "react";
+import {
+  Nav,
+  Hamburger,
+  Logo,
+  Menu,
+  MenuLink,
+  MenuButton,
+} from "./NavbarElements";
+import {Link} from 'react-scroll'
+import Sticky from 'react-stickynode';
 
 
-            <div className="menu-icon" onClick={handleClick}>
-            {click ? <FaTimes/> : <FaBars/>}
-            </div>
-        <ul className = {click ? 'nav-menu active' : 'nav-menu'}>
-
-        <li className="nav-item">
-            <Link to = 'home'className = 'nav-links' smooth={true} duration={1000} onClick={closeMobileMenu}>
-                Home
-            </Link>
-        </li>
-        <li className="nav-item">
-            <Link to = 'about'className = 'nav-links' smooth={true} duration={1000} onClick={closeMobileMenu}>
-                About
-            </Link>
-        </li>
-        <li className="nav-item">
-            <Link to = 'skills'className = 'nav-links' smooth={true} duration={1000} onClick={closeMobileMenu}>
-                Skills
-            </Link>
-        </li>
-        <li className="nav-item">
-            <Link to ='projects' smooth={true} duration={1000} className = 'nav-links' onClick={closeMobileMenu}>
-                Projects
-            </Link>
-        </li>
-       
-      
- 
-
-    
 
 
-        </ul>
-        </div>
-        </div>
+function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
 
-    
-        </IconContext.Provider>
-
-    )
+  const handleStateChange = (status) => {
+    if(status.status === Sticky.STATUS_FIXED) {
+        setIsSticky(true)
+    }else if(status.status === Sticky.STATUS_ORIGINAL) {
+        setIsSticky(false)
+    }
 }
 
-export default Navbar
+
+
+
+
+
+  return (
+      <Sticky>
+    <Nav>
+      <Link to="/">
+        {/* <Logo src={GrayLogo}></Logo> */}
+      </Link>
+      <Hamburger onClick={() => setIsOpen(!isOpen)}>
+        <span />
+        <span />
+        <span />
+        <span />
+      </Hamburger>
+      <Menu isOpen={isOpen}>
+      <MenuLink href=""><Link to='home' smooth={true} spy={100} duration={600}>Home</Link></MenuLink>
+        <MenuLink href=""><Link to='about' smooth={true} spy={100} duration={600}>About Me</Link></MenuLink>
+        <MenuLink href=""><Link to='skills' smooth={true} spy={100} duration={600}>Skills</Link></MenuLink>
+        <MenuLink href=""><Link to='projects' smooth={true} spy={100} duration={600}>Projects</Link></MenuLink>
+      </Menu>
+    </Nav>
+    </Sticky>
+  );
+}
+
+export default Navbar;

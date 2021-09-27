@@ -16,10 +16,8 @@ function App() {
   return (
 <Router>
 <Navbar/>
-
 <div className = 'App'>
 <div className='layer'>
-
   <Route path = '/' exact>
     <Home/>
     <Marginner/>

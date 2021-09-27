@@ -9,7 +9,6 @@ import Projects from './components/Projects/Projects'
 import Skills from './components/Skills-Sectino/Skills'
 import Navbar from './components/Navbar/Navbar'
 import Marginner from './components/Marginner'
-import Contact from './components/Contact-Section/Contact'
 import Footer from './components/Footer/Footer'
 
 function App() {
@@ -30,7 +29,6 @@ function App() {
    <Marginner/>
    <Projects/>
    <Marginner/>
-   <Contact/>
    <Footer/>
   </Route>
   <Route path = '/about'>

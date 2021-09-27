@@ -20,10 +20,7 @@ const Navbar = () => {
    
         <div className="navbar">
         <div className="navbar-container container">
-{/* 
-            <Link onClick={closeMobileMenu} className ='navbar-logo' to ='home'>
-                JR
-            </Link> */}
+
 
             <div className="menu-icon" onClick={handleClick}>
             {click ? <FaTimes/> : <FaBars/>}
@@ -50,11 +47,7 @@ const Navbar = () => {
                 Projects
             </Link>
         </li>
-        <li className="nav-item">
-            <Link to = 'contact'className ='nav-links'  smooth={true} duration={1000} onClick={closeMobileMenu} >
-               Contact
-            </Link>
-        </li>
+       
       
  
 

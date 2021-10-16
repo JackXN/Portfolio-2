@@ -67,12 +67,26 @@ export const MenuLink = styled.a`
   border-bottom: 2px solid transparent
   color: white;
 
+background :
+background : ackground: 
+linear-gradient(to right, rgba(100, 200, 200, 1), rgba(100, 200, 200, 1)),
+linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+background-size: 100% 0.1em, 0 0.1em;
+background-position: 100% 100%, 0 100%;
+background-repeat: no-repeat;
+transition: background-size 400ms;
+
+
   float:left;
 
 &:hover {
     color: #f00946;
     transform: scale(1.2);
     transition: all 0.3s ease;
+}
+
+&:hover, &focus {
+    background-size: 0 0.1em, 100% 0.1em;
 }
 
 
